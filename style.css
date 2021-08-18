@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lato&display=swap');
+html,body{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    background:url('https://res.cloudinary.com/rahulb4/image/upload/v1629259459/pexels-laura-james-6102145_1_meg5kn.jpg') no-repeat fixed center;  
+   background-size: cover;
+}
+header{
+
+    padding:1.5rem  2rem ;
+    margin: 1rem 2rem;
+    border-radius: 2rem 0 2rem 0;
+    background: #E7E2E2;
+    color: #B07951;
+    font-family: 'Libre Baskerville', serif;
+    max-width: 42vw;
+
+}
+header h1{
+    font-size: 2.75rem;;
+}
+header p{
+    font-size: 1.25rem;
+    max-width: 40rem;
+    line-height: 2rem;;
+}
+/* .container{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+} */
+.date-picker{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    padding:  1rem 1rem;
+    margin: 1rem 1rem;
+    font-family: 'Lato', sans-serif;
+}
+.date-picker p{
+    padding:0.75rem;
+    margin: 1rem;
+    font-size: 2rem;
+    color:#E7E2E2;
+    font-weight: 700;
+}
+input{
+    padding:0.75rem;
+    margin: 1rem 1.5rem;
+    width: 12rem;
+    border: none;
+    border-bottom: 4px solid #E7E2E2;
+    font-size: 1.2rem;
+    background: transparent;
+    color: #E7E2E2;
+}
+
+#check-btn{
+    padding: 0.5rem;
+    margin: 1rem 1.5rem;
+    border-radius: 0.75rem;
+    width: 6rem;
+    font-size: 1.125rem;
+    
+    cursor: pointer;
+    border: none;
+    background: #E7E2E2;
+    color: #B07951;
+}
+#check-btn:hover{
+    background-color: #F2F3AE;
+}
+#output-div{
+    font-size:1.4rem;
+    margin:1rem 2.5rem;
+    padding: 1rem 2rem;
+    max-width: 44rem;
+    color: #B07951;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+nav ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0 1rem;
+    margin: 1rem;
+}
+li{
+    padding: 0 .5rem;
+     font-size: 1.25rem;
+
+}
+a{
+    color:#E7E2E2; 
+}
+@media screen and (max-width:600px) {
+    header{
+
+        padding:1.5rem  1.5rem ;
+        margin: 1rem 1rem;
+ 
+        max-width: 90%;
+    
+    }
+    header h1{
+        font-size: 2rem;;
+    }
+    header p{
+        font-size: 1rem;
+        line-height: 1.5rem;;
+    }
+    .date-picker p{
+        font-size: 1.5rem;
+    }
+    #output-div{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin:1rem 1rem;
+        padding: 1rem 1.5rem;
+        border-radius: 0 2rem 0 2rem ;
+    }
+    
+}

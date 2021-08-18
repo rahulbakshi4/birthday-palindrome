@@ -4,23 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Birthday Palindrome</title>
 </head>
 <body>
+    <nav>
+    
+        <ul>
+            <li><a href="https://github.com/rahulbakshi4" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://twitter.com/rahul_bakshi4" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/rahul-bakshi-552071189/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        
+   </nav>
     <header>
         <h1>
             Birthday Palindrome
         </h1>
-        <p>Let's Check If Your Birthday Is a Palindrome.</p>    
+        <p>A palindrome is a sequence of symbols or elements that is the same backwards as forwards. Its rare to be born on a palindromic birthday. The probability of that is about one in three million.</p>    
     </header>
-    <section>
-        <p>Enter Your Birthdate Below</p>
-        <input type="date" name="date-input" id="date-input"/>
-        <button>Check</button>
-    </section>
-    <section id="output-div">
+    <div class="container">
+        <section class="date-picker">
+            <p>Enter Your Birthdate Below</p>
+            <input type="date" name="date-input" id="date-input"/>
+            <button id="check-btn">Check</button>
+        </section>
+        <section class="date-picker" id="output-div">
+    
+        </section>
+    </div>
 
-    </section>
-
+<script src="script.js"></script>
 </body>
 </html>
