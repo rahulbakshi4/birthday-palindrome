@@ -1,5 +1,5 @@
 # birthday-palindrome
-This app a birthday palindrome checker.
+This app is a birthday palindrome checker.
 ### Usage
 - Enter your birthday in the input box
 - Click the check button to find out is your birthday a palindrome
